@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .btn-1{
+        @apply bg-gradient-to-r from-gardinent_1 to-gardinent_2 w-full p-3 text-white uppercase text-sm rounded-md tracking-widest cursor-pointer
+    }
+
+    .btn-2{
+        @apply bg-white text-gardinent_1 w-full cursor-pointer tracking-widest rounded-md uppercase p-3
+    }
+
+    .price{
+        @apply text-7xl border-b pb-10 flex justify-center items-center 
+    }
+
+    .price-title{
+        @apply text-3xl mr-2 items-center 
+    }
+
+    .li-item{
+        @apply py-4 border-b text-sm text-grayish_b 
+    }
+
+    .li-item-2{
+        @apply py-4 border-b text-white
+    }
+
+    .text-color{
+        @apply text-dark_g !important
+    }
+
+    .block-v2{
+        @apply flex !important
+    }
+
+    .hidden-class{
+        @apply hidden !important
+    }
+
+    .btn-2v2{
+        @apply bg-gradient-to-tl from-white to-white text-gardinent_2 border border-solid border-gardinent_2
+    }
+
+    .price-p-2{
+        @apply text-4xl
+    }
+
+
+}
